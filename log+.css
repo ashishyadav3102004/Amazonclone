@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-image: url("./pexels-negative-space-34577.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.contain {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin-left: 36%;
+    margin-top: 7%;
+    text-align: center;
+    color: rgb(190, 186, 186);
+}
+
+.contain h1 {
+    font-size: 36px;
+    color: black;
+}
+
+.contain .text {
+    position: relative;
+    top: 7%;
+}
+
+.inp1 {
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid black;
+    width: 250px;
+    font-size: 22px;
+    margin: top 40px;
+    outline: none;
+    color: black;
+}
+
+.inp2 {
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid black;
+    width: 250px;
+    font-size: 22px;
+    margin: top 40px;
+    outline: none;
+    color: black;
+}
+
+.text button {
+    width: 250px;
+    height: 44px;
+    background-color: gray;
+    color: black;
+    border: none;
+    font-size: 24px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+button:hover {
+    border: 3px solid gray;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+
+p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+p samp {
+    color: gray;
+}
